@@ -4,7 +4,7 @@
 
 **Стек:** TypeScript · Node.js 24 · NestJS 12 · GraphQL (Apollo Server 5) · Prisma 7 · PostgreSQL 18 · Docker
 
-- Apollo Sandbox: `<DEPLOY_URL>/graphql`
+- Apollo Sandbox: https://api-production-60b288e4.up.railway.app/graphql
 - Локально: http://localhost:3000/graphql
 
 ## Запуск с нуля
