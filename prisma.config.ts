@@ -1,4 +1,8 @@
+import { existsSync } from 'node:fs';
 import { defineConfig } from 'prisma/config';
+
+// Local runs read .env; in Docker/Railway variables come from the environment.
+if (existsSync('.env')) process.loadEnvFile('.env');
 
 export default defineConfig({
   schema: 'prisma/schema.prisma',
