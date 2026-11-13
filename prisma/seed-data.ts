@@ -19,7 +19,7 @@ export interface SeedData {
 export const seedData: SeedData = {
   name: 'TODO: Имя Фамилия',
   description: 'TODO: TypeScript backend developer.',
-  links: [{ title: 'GitHub', url: 'https://github.com/dex89666' }],
+  links: [{ title: 'GitHub', url: 'https://github.com/vladcorp-ai' }],
   skills: ['TypeScript', 'Node.js', 'NestJS', 'GraphQL', 'Prisma', 'PostgreSQL', 'Docker', 'Git'],
   experience: [
     {
@@ -36,5 +36,5 @@ export const seedData: SeedData = {
       achievements: ['TODO: achievement'],
     },
   ],
-  projects: [{ name: 'Digital business card API', url: 'https://github.com/dex89666/digital-card-api' }],
+  projects: [{ name: 'Digital business card API', url: 'https://github.com/vladcorp-ai/digital-card-api' }],
 };

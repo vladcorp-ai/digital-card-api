@@ -10,7 +10,7 @@
 ## Запуск с нуля
 
 ```bash
-git clone https://github.com/dex89666/digital-card-api.git
+git clone https://github.com/vladcorp-ai/digital-card-api.git
 cd digital-card-api
 docker compose up --build
 ```
