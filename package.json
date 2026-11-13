@@ -1,0 +1,42 @@
+{
+  "name": "digital-card-api",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Digital business card backend: NestJS + GraphQL + Prisma + PostgreSQL",
+  "license": "MIT",
+  "dependencies": {
+    "@apollo/server": "^5.5.2",
+    "@as-integrations/express5": "^1.1.2",
+    "@nestjs/apollo": "^14.2.1",
+    "@nestjs/common": "^12.5.0",
+    "@nestjs/core": "^12.5.0",
+    "@nestjs/graphql": "^14.2.1",
+    "@nestjs/platform-express": "^12.5.0",
+    "@prisma/adapter-pg": "^7.10.1",
+    "@prisma/client": "^7.10.1",
+    "dataloader": "^2.2.3",
+    "graphql": "^16.15.0",
+    "reflect-metadata": "^0.2.2",
+    "rxjs": "^7.8.2"
+  },
+  "devDependencies": {
+    "@nestjs/testing": "^12.5.0",
+    "@swc/core": "^1.16.22",
+    "@types/node": "^24.19.2",
+    "@types/supertest": "^7.2.1",
+    "prisma": "^7.10.1",
+    "supertest": "^7.3.2",
+    "typescript": "^5.9.3",
+    "unplugin-swc": "^2.0.0",
+    "vitest": "^5.1.0"
+  },
+  "scripts": {
+    "build": "prisma generate && tsc -p tsconfig.build.json",
+    "start": "node dist/src/main.js",
+    "start:prod": "prisma migrate deploy && prisma db seed && node dist/src/main.js",
+    "test:e2e": "vitest run"
+  },
+  "engines": {
+    "node": ">=24"
+  }
+}
