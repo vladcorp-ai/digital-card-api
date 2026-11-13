@@ -49,7 +49,7 @@ export const seedData: SeedData = {
   ],
   experience: [
     {
-      company: 'VLADLAB LLC',
+      company: 'Independent Product Studio',
       position: 'Founder & Full-Stack Developer',
       startDate: '2025-09',
       achievements: [
